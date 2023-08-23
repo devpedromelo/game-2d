@@ -17,6 +17,7 @@ function animate(){
     context.fillStyle = 'black';
     context.fillRect(0, 0, canvasWidth, canvasHeight);
 
+    background.uptade();
     player.uptade();
     // player2.uptade();
 
